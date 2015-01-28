@@ -153,6 +153,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zz0-Ub-TDg" kind="push" identifier="PickGame" id="cZG-YT-eov"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -175,7 +178,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="detailLabel" destination="OqU-JO-AIo" id="TVz-g9-fjs"/>
+                        <outlet property="detailLabel" destination="IJD-eG-BeY" id="EyZ-UO-Egx"/>
                         <outlet property="nameTextField" destination="Alc-yZ-lIc" id="hgE-Pi-3s7"/>
                     </connections>
                 </tableViewController>
@@ -183,6 +186,45 @@
                 <exit id="KXr-nP-aQk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1292" y="856"/>
+        </scene>
+        <!--Choose Game-->
+        <scene sceneID="sNr-5V-y01">
+            <objects>
+                <tableViewController id="zz0-Ub-TDg" customClass="GamePickerTableViewController" customModule="Ratings" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="kXi-ep-K4P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="GameCell" textLabel="RYl-O9-F4o" style="IBUITableViewCellStyleDefault" id="kcC-Zy-OMm">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kcC-Zy-OMm" id="9Mv-rd-mg3">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RYl-O9-F4o">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="4qb-aG-hGY" kind="unwind" identifier="SaveSelectedGame" unwindAction="selectedGame:" id="sPW-nT-X5m"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zz0-Ub-TDg" id="GFy-4L-NkN"/>
+                            <outlet property="delegate" destination="zz0-Ub-TDg" id="aek-eW-UTn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Choose Game" id="7kS-3D-PiW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mV3-uM-o25" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="4qb-aG-hGY" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1677" y="858"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zon-dQ-fwh">
