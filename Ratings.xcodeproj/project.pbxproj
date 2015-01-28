@@ -17,6 +17,7 @@
 		2743A8261A78B85B00AA29C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8251A78B85B00AA29C4 /* Player.swift */; };
 		2743A8281A78B8AA00AA29C4 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8271A78B8AA00AA29C4 /* SampleData.swift */; };
 		2743A82A1A78BCF200AA29C4 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8291A78BCF200AA29C4 /* PlayerCell.swift */; };
+		2743A82E1A78BF9C00AA29C4 /* PlayerDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A82D1A78BF9C00AA29C4 /* PlayerDetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2743A8251A78B85B00AA29C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		2743A8271A78B8AA00AA29C4 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		2743A8291A78BCF200AA29C4 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		2743A82D1A78BF9C00AA29C4 /* PlayerDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailsTableViewController.swift; path = ../PlayerDetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				2743A8251A78B85B00AA29C4 /* Player.swift */,
 				2743A8271A78B8AA00AA29C4 /* SampleData.swift */,
 				2743A8231A78B81B00AA29C4 /* PlayersTableViewController.swift */,
+				2743A82D1A78BF9C00AA29C4 /* PlayerDetailsTableViewController.swift */,
 				2743A80A1A78B46A00AA29C4 /* Images.xcassets */,
 				2743A80C1A78B46A00AA29C4 /* LaunchScreen.xib */,
 				2743A8011A78B46A00AA29C4 /* Supporting Files */,
@@ -230,6 +233,7 @@
 				2743A8041A78B46A00AA29C4 /* AppDelegate.swift in Sources */,
 				2743A8281A78B8AA00AA29C4 /* SampleData.swift in Sources */,
 				2743A8241A78B81B00AA29C4 /* PlayersTableViewController.swift in Sources */,
+				2743A82E1A78BF9C00AA29C4 /* PlayerDetailsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
