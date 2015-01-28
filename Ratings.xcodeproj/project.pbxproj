@@ -16,6 +16,7 @@
 		2743A8241A78B81B00AA29C4 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8231A78B81B00AA29C4 /* PlayersTableViewController.swift */; };
 		2743A8261A78B85B00AA29C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8251A78B85B00AA29C4 /* Player.swift */; };
 		2743A8281A78B8AA00AA29C4 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8271A78B8AA00AA29C4 /* SampleData.swift */; };
+		2743A82A1A78BCF200AA29C4 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743A8291A78BCF200AA29C4 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		2743A8231A78B81B00AA29C4 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
 		2743A8251A78B85B00AA29C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		2743A8271A78B8AA00AA29C4 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		2743A8291A78BCF200AA29C4 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2743A8031A78B46A00AA29C4 /* AppDelegate.swift */,
 				2743A8051A78B46A00AA29C4 /* ViewController.swift */,
 				2743A8071A78B46A00AA29C4 /* Main.storyboard */,
+				2743A8291A78BCF200AA29C4 /* PlayerCell.swift */,
 				2743A8251A78B85B00AA29C4 /* Player.swift */,
 				2743A8271A78B8AA00AA29C4 /* SampleData.swift */,
 				2743A8231A78B81B00AA29C4 /* PlayersTableViewController.swift */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2743A82A1A78BCF200AA29C4 /* PlayerCell.swift in Sources */,
 				2743A8261A78B85B00AA29C4 /* Player.swift in Sources */,
 				2743A8061A78B46A00AA29C4 /* ViewController.swift in Sources */,
 				2743A8041A78B46A00AA29C4 /* AppDelegate.swift in Sources */,
